@@ -1,16 +1,31 @@
 * {
     margin: 0px;
-    padding: 0px
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-h1 {
+body {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    display: block;
     background-color: olive;
     color: whitesmoke;
-    padding: 20px
+    border: 1px solid red;
+    margin-bottom: 40px;
+    padding: 20px;
 }
 
-li {
+.list-recipe {
+    display: block;
+    list-style-type: none;
+    border: 1px solid red;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    margin: 15px;
     padding: 20px;
 }
 
